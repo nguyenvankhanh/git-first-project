@@ -40,18 +40,3 @@ class Breakpoint extends PluginBase implements BreakpointInterface {
     return $this->pluginDefinition['multipliers'];
   }
 
-  /**
-   * {@inheritdoc}
-   */
-  public function getProvider() {
-    return $this->pluginDefinition['provider'];
-  }
-
-  /**
-   * {@inheritdoc}
-   */
-  public function getGroup() {
-    return $this->pluginDefinition['group'];
-  }
-
-}
